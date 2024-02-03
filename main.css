@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: poppins, sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+}
+img{
+    width: 100%;
+}
+
+body{
+    font-family: poppins, sans-serif;
+    background-color: #43465e;
+}
+
+.movie-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.movie-box{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    padding: 15px;
+    background-color: #dedede;
+}
